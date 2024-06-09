@@ -5,14 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="jogos.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
     <title>Mario Jump</title>
 </head>
 <body>
-    <div class="game-board">
-        <img src="Imagens/clouds.png" alt="" class="nuvens">
-        <img src="Imagens/mario.gif" alt="" class="mario">
-      <img src="Imagens/pipe.png" alt="" class="pipe">
-    </div>
-</body>
+       <div class="game">
+        <img class="mario" src="img/mario.gif" alt="mario">
+        <img class="pipe" src="img/pipe.png" alt="cano">
+        <img class="clouds" src="img/clouds.png" alt="nuvem">
+        <button class="start" onclick="startGame()">Iniciar</button>
+       </div>
+        <div class="game-over"><h1>Game Over :(</h1><button onclick="restartGame()">Reiniciar</button></div>
+    </body>
+    <script src="script.js"></script>
 </html>
