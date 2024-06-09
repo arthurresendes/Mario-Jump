@@ -84,6 +84,6 @@
 @media screen and (max-width :500px){
     .game-board{
         width: 100vw;
-        height: 93vh;
+        height: 90vh;
     }
 }
