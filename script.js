@@ -59,22 +59,22 @@ const loop = () => {
       mario.src = 'img/game-over.png'
       mario.style.width = '80px'
       mario.style.marginLeft = '50px'
-      
-      
+
+
       function stopAudioStart() {
         audioStart.pause()
       }
       stopAudioStart()
-      
+
       audioGameOver.play()
-      
+
       function stopAudio() {
         audioGameOver.pause()
       }
       setTimeout(stopAudio, 7000)
-      
+
       gameOver.style.display = 'flex'
-      
+
       clearInterval(loop)
     }
   }, 10)
@@ -91,7 +91,7 @@ document.addEventListener('keypress', e => {
 
 document.addEventListener('touchstart', e => {
   if (e.touches.length) {
-    jump() 
+    jump()
   }
 })
 
