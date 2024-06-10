@@ -22,6 +22,8 @@ button {
     font-weight: bold;
     font-size: 1.5rem;
     border: none;
+    border-radius: 0 7px ;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.438);
     padding: 1rem;
     position: absolute;
     right: 50vw;
@@ -30,7 +32,7 @@ button {
     z-index: 1;
 }
 button:hover {
-    border: 2px solid green;
+    border: 3px solid rgb(7, 182, 7);
     background: none;
     color: green;
 }
@@ -51,7 +53,7 @@ button:hover {
     font-size: 3rem;
     color: red;
     text-align: center;
-    margin-top: 15rem;
+    margin-top: 14rem;
 }
 
 .pipe {
@@ -68,7 +70,7 @@ button:hover {
 }
 
 .clouds {
-    width: 550px;
+    width: 400px;
     position: absolute;
     top: 0;
     animation: clouds-animation 20s infinite linear;
